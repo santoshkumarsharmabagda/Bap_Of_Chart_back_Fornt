@@ -1,0 +1,22 @@
+.example::-webkit-scrollbar {
+  display: none;
+}
+
+.example {
+  -ms-overflow-style: none;  
+  scrollbar-width: none;  
+}
+
+.scrollbar::-webkit-scrollbar{
+  width: 10px;
+}
+
+.scrollbar::-webkit-scrollbar-track{
+  border-radius: 10px;
+  background-color: gray;
+}
+.scrollbar::-webkit-scrollbar-thumb {
+  background: black; 
+  border-radius: 10px;
+}
+
